@@ -1,4 +1,4 @@
-Progetto Midterm
+# Progetto Midterm
 
 Consegna
 Riprodurre il layout assegnato solo in versione desktop.
@@ -7,10 +7,12 @@ Tecnologie da utilizzare
 - CSS / SCSS
 - Vue
 - Vite
-Requisiti tecnici minimi
+
+
+## Requisiti tecnici minimi
 Creare un progetto con Vite, strutturando il layout in almeno 3 macro-componenti: Header, Main e Footer. Popolare le voci di menù di Header e Footer dinamicamente, tramite delle props, creando una struttura dati idonea.
 
-Tabella di marcia:
+## Tabella di marcia:
 
 - Primo giorno:
   - Analisi del layout
@@ -27,10 +29,10 @@ Tabella di marcia:
   - Hover
   - Revisione
 
-Bonus (in caso di tempo in eccesso prima della deadline):
+## Bonus (in caso di tempo in eccesso prima della deadline):
 
 - Inserimento caroselli 
 
-Deadline: 
+## Deadline: 
 
 Mercoledì 10 Aprile 2024 ore 19.
