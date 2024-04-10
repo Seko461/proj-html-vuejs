@@ -9,17 +9,33 @@ export default {
 
         <section class="events-carousel">
             <div class="row">
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h3-img-1.jpg" alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-img-carousel-event.png"
+                        alt="">
                 </div>
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h3-img-2.jpg" alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-img-carousel-event.png"
+                        alt="">
                 </div>
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h3-img-3.jpg" alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-img-carousel-event.png"
+                        alt="">
                 </div>
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h3-img-4.jpg" alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-img-carousel-event.png"
+                        alt="">
                 </div>
 
             </div>
@@ -103,20 +119,36 @@ export default {
         <!-- /.banner -->
         <section class="employees">
             <div class="row">
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h1-team-1a-700x700.jpg"
                         alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-employees.png"
+                        alt="">
                 </div>
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h1-team-2a.jpg"
                         alt="">
-                </div>
-                <div class="col-3"><img
-                        src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h1-team-4a.jpg"
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-employees.png"
                         alt="">
                 </div>
-                <div class="col-3"><img
+                <div class="col-3">
+                    <img class="a"
+                        src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h1-team-4a.jpg"
+                        alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-employees.png"
+                        alt="">
+                </div>
+                <div class="col-3">
+                    <img class="a"
                         src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/h1-team-3a.jpg"
+                        alt="">
+                    <img class="b"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/img/hover-employees.png"
                         alt="">
                 </div>
 
@@ -317,11 +349,31 @@ export default {
 
 }
 
+.b {
+    position: absolute;
+    left: 0;
+    opacity: 0%;
+}
+
+/* .a:hover {
+    opacity: 0;
+    cursor: pointer;
+
+
+} */
+
+
+.b:hover {
+    opacity: 100%;
+    transition: 1s;
+}
+
 .col-3 {
 
 
     width: calc((100%/12)*3);
 
+    position: relative;
 
     >img {
         width: 100%;
@@ -329,6 +381,14 @@ export default {
 
     }
 
+}
+
+.col-3:hover {
+    cursor: pointer;
+
+    >.a {
+        opacity: 0;
+    }
 }
 
 .quotes {
@@ -867,5 +927,4 @@ td {
         font-size: .7rem;
         letter-spacing: .1rem;
     }
-}
-</style>
+}</style>

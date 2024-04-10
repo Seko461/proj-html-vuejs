@@ -128,6 +128,7 @@ export default {
 
 .nav-bar>li>img {
     color: white;
+
 }
 
 a {
@@ -147,7 +148,7 @@ a {
 }
 
 .cart a {
-    padding-top: .rem;
+    padding-top: .222rem;
 }
 
 .counter {
@@ -176,10 +177,14 @@ a {
 }
 
 
+.mustache-icon {
+    margin-right: .2rem;
+}
 
 .fa-magnifying-glass {
     color: white;
     font-size: .55rem;
+    margin-right: .2rem;
 }
 
 .jumbo {
