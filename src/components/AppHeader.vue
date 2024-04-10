@@ -14,7 +14,8 @@ export default {
                 <ul>
                     <li>
                         <img class="mustache-icon" width="12"
-                            src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/svg/svg-0.svg" alt="">
+                            src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/svg/svg-0.svg"
+                            alt="">
                         <a href="#">HOME</a>
                     </li>
                     <li><a href="#">PAGES</a></li>
@@ -38,7 +39,8 @@ export default {
                     <div class="counter">
                         0
                     </div>
-                    <img width="20" src="/progetto front end finale pizza/drive-download-20240408T091339Z-001/svg/svg-1.svg"
+                    <img width="20"
+                        src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/svg/svg-1.svg"
                         alt="">
                     <a href="#">CART</a>
                 </button>
@@ -133,6 +135,7 @@ a {
     font-size: .5rem;
     color: white;
 
+
 }
 
 .cart {
@@ -144,7 +147,7 @@ a {
 }
 
 .cart a {
-    padding-top: .222rem;
+    padding-top: .rem;
 }
 
 .counter {
