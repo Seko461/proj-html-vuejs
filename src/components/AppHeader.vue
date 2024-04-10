@@ -1,6 +1,14 @@
 <script>
 export default {
     name: 'AppHeader',
+    data() {
+        return {
+            leftVoices: ['HOME', 'PAGES', 'MENU'],
+            rightVoices: ['EVENT', 'BLOG', 'LANDING'],
+
+
+        }
+    }
 
 }
 </script>
@@ -12,14 +20,7 @@ export default {
             <div class="left">
                 <button class="order"><a href="#">ORDER ONLINE</a></button>
                 <ul>
-                    <li>
-                        <img class="mustache-icon" width="12"
-                            src="../../public/progetto front end finale pizza/drive-download-20240408T091339Z-001/svg/svg-0.svg"
-                            alt="">
-                        <a href="#">HOME</a>
-                    </li>
-                    <li><a href="#">PAGES</a></li>
-                    <li><a href="#">MENU</a></li>
+                    <li v-for="voice in leftVoices">{{ voice }}</li>
                 </ul>
             </div>
             <!-- /.left -->
@@ -31,9 +32,7 @@ export default {
             <!-- /.center-logo -->
             <div class="right">
                 <ul>
-                    <li><a href="#">EVENT</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">LANDING</a></li>
+                    <li v-for="voice in rightVoices">{{ voice }}</li>
                 </ul>
                 <button class="cart">
                     <div class="counter">
@@ -122,8 +121,19 @@ export default {
     flex-direction: row;
     gap: 2rem;
     list-style: none;
+    align-items: center;
 
 
+}
+
+.left>ul>li {
+    color: white;
+    font-size: .5rem;
+}
+
+.right>ul>li {
+    color: white;
+    font-size: .5rem;
 }
 
 .nav-bar>li>img {
