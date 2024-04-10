@@ -20,7 +20,7 @@ export default {
             <div class="left">
                 <button class="order"><a href="#">ORDER ONLINE</a></button>
                 <ul>
-                    <li v-for="voice in leftVoices">{{ voice }}</li>
+                    <li style="cursor: pointer" v-for="voice in   leftVoices  ">{{ voice }}</li>
                 </ul>
             </div>
             <!-- /.left -->
@@ -32,7 +32,7 @@ export default {
             <!-- /.center-logo -->
             <div class="right">
                 <ul>
-                    <li v-for="voice in rightVoices">{{ voice }}</li>
+                    <li style="cursor: pointer" v-for="  voice   in   rightVoices  ">{{ voice }}</li>
                 </ul>
                 <button class="cart">
                     <div class="counter">
@@ -136,6 +136,7 @@ export default {
     font-size: .5rem;
 }
 
+
 .nav-bar>li>img {
     color: white;
 
@@ -171,7 +172,7 @@ a {
     transform: translateX(.75rem);
     margin-bottom: .5rem;
     text-align: center;
-    padding-top: .13rem;
+
 }
 
 .nav-bar button {
