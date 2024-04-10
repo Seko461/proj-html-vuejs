@@ -219,6 +219,7 @@ a {
     width: 3rem;
     border-radius: 50%;
     color: #D2401E;
+    cursor: pointer;
 
 }
 
@@ -274,5 +275,11 @@ a {
     align-items: center;
     border-radius: 50%;
     background-color: #fbf9f9;
+    cursor: pointer;
+}
+
+.pizza-slice:hover {
+    background-color: lightgray;
+
 }
 </style>
