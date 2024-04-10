@@ -927,4 +927,5 @@ td {
         font-size: .7rem;
         letter-spacing: .1rem;
     }
-}</style>
+}
+</style>

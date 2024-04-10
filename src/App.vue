@@ -43,4 +43,8 @@ body {
   position: relative;
 
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
 </style>
